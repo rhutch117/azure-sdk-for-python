@@ -29,9 +29,9 @@ logger.info("info log")
 logger.warning("warning log")
 logger.error("error log")
 
-logger.info("info log")
-logger.warning("warning log")
-logger.error("error log")
+logger_child.info("info log from child")
+logger_child.warning("warning log from child")
+logger_child.error("error log from child")
 
 logger_not_tracked.info("info log2")
 logger_not_tracked.warning("warning log2")
